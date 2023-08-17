@@ -34,7 +34,7 @@ p{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding: 14% 0;
+    padding: 19em 0;
 }
 
 
@@ -180,7 +180,13 @@ p{
     background-image: linear-gradient(to top, var(--Light_royal_blue), var(--Violet_blue));
 }
 
-@media (max-width: 375px){
+.linksAt{
+    text-decoration: none;
+    font-weight: 800;
+    color: var(--Light_royal_blue);
+}
+
+@media (max-width: 425px){
     .body{
         width: 100vw;
         height: 100vh;
